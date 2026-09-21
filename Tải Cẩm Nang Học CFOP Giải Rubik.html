@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tải Cẩm Nang Học CFOP Giải Rubik</title>
+    <style>
+        /* ========================================================
+           1. THIẾT KẾ GIAO DIỆN TỔNG THỂ (CSS)
+           ======================================================== */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8; /* Màu nền xám xanh hiện đại */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Khung chứa nội dung chính giữa màn hình */
+        .card {
+            background-color: #ffffff;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* Đổ bóng nhẹ */
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            border-top: 6px solid #ff5722; /* Viền màu cam Rubik nổi bật phía trên */
+        }
+
+        h1 {
+            color: #1e293b;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            color: #64748b;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        /* Thiết kế danh sách các bước CFOP */
+        .cfop-steps {
+            text-align: left;
+            background-color: #f8fafc;
+            padding: 15px 20px 15px 35px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            color: #334155;
+        }
+
+        .cfop-steps li {
+            margin: 8px 0;
+            font-size: 14.5px;
+        }
+
+        /* ========================================================
+           2. THIẾT KẾ NÚT TẢI ĐƯỜNG LIÊN KẾT (BUTTON LINK)
+           ======================================================== */
+        .download-btn {
+            display: inline-block;
+            background-color: #ff5722; /* Màu cam đặc trưng của Rubik */
+            color: #ffffff;            /* Chữ màu trắng */
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;     /* Bỏ dấu gạch chân mặc định của liên kết */
+            border-radius: 50px;       /* Bo tròn hai đầu nút */
+            box-shadow: 0 4px 14px rgba(255, 87, 34, 0.4); /* Tạo hiệu ứng phát sáng nhẹ */
+            transition: all 0.3s ease; /* Tạo hiệu ứng chuyển động mượt mà */
+        }
+
+        /* Hiệu ứng khi rê chuột (Hover) vào nút */
+        .download-btn:hover {
+            background-color: #e64a19; /* Đổi sang màu cam đậm hơn */
+            transform: translateY(-3px); /* Nút nhích nhẹ lên trên tạo chiều sâu 3D */
+            box-shadow: 0 6px 20px rgba(255, 87, 34, 0.6); /* Bóng đổ đậm hơn */
+        }
+
+        /* Hiệu ứng khi click chuột vào nút */
+        .download-btn:active {
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========================================================
+       3. NỘI DUNG HIỂN THỊ TRÊN TRANG WEB (HTML)
+       ======================================================== -->
+    <div class="card">
+        <h1>Cẩm Nang Học CFOP 3x3</h1>
+        <p class="description">
+            Chào mừng bạn đến với trang tải tài liệu! Phương pháp CFOP là bộ công thức nâng cao giúp bạn tối ưu hóa tốc độ và đưa thời gian giải Rubik xuống dưới 20 giây.
+        </p>
+
+        <!-- Danh sách tóm tắt nội dung tài liệu -->
+        <ul class="cfop-steps">
+            <li><strong>C - Cross:</strong> Hướng dẫn làm chữ thập ở mặt đáy.</li>
+            <li><strong>F - F2L:</strong> Bộ 41 công thức giải đồng thời tầng 1 và tầng 2.</li>
+            <li><strong>O - OLL:</strong> Bộ 57 công thức định hướng toàn bộ mặt tầng cuối.</li>
+            <li><strong>P - PLL:</strong> Bộ 21 công thức hoán vị để hoàn thành khối Rubik.</li>
+        </ul>
+
+        <!-- Đường liên kết đã được cập nhật chính xác link Google Drive của bạn -->
+        <a href="https://drive.google.com/file/d/1I_kXmr8yXrI1nO2sqE_vCuzQd_V3y4eW/view?usp=sharing" target="_blank" class="download-btn">
+            Tải Cẩm Nang CFOP (Google Drive)
+        </a>
+    </div>
+
+</body>
+</html>
